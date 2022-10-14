@@ -5,6 +5,9 @@ body{
 	font-weight: 400;
 	color: #898989;
 }
+.c_padding{
+	padding: 100px 0 120px;
+}
 /*Common CSS end*/
 
 /*Header start*/
@@ -79,9 +82,7 @@ header{
 /*Slider section CSS end*/
 
 /*Feature Section CSS start*/
-.feature{
-	padding: 100px 0 120px;
-}
+.feature{}
 .c_title{}
 .c_h1{
 	margin-bottom: 15px;
@@ -118,3 +119,71 @@ header{
 	letter-spacing: 1px;
 }
 /*Feature Section CSS end*/
+
+/*Contact Section CSS start*/
+.contact{
+	background-color: #010101;
+}
+.yellow{
+	color: #fcdb00;
+}
+.ash{
+	color: #898989;
+}
+.c_form{
+	margin: 35px 0 70px;
+}
+.c_input{
+	padding: 15px 20px;
+	height: 55px;
+	font-family: 'PT Sans', sans-serif;
+	color: #898989;
+}
+.c_submit{
+	width: 100%;
+	height: 55px;
+	font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+	font-weight: 700;
+	color: #010101 !important;
+	text-transform: uppercase;
+	background-color: #fcdb00;
+}
+.c_submit:hover{
+	background-color: #ffffff !important;
+}
+.c_icon{}
+.c_icon ul{}
+.c_icon ul li{
+	margin-right: 30px !important;
+}
+.c_icon ul li:last-child{
+	margin-right: 0 !important;
+}
+.c_icon ul li i{
+	font-size: 42px;
+	color: #fcdb00;
+	transition: .3s ease-in-out;
+}
+.c_icon ul li i:hover{
+	color: #ffffff;
+}
+
+/*Contact Section CSS end*/
+
+/*Footer CSS start*/
+footer{
+	padding-bottom: 120px;
+	background-color: #010101;
+}
+.f_one{}
+.f_one address{
+	color: #ffffff;
+}
+.f_all{}
+.f_all p{}
+.f_all p a{
+	text-decoration: none;
+	color: #ffffff;
+}
+/*Footer CSS end*/
