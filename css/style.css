@@ -17,7 +17,7 @@ header{
 .menu{}
 
 .menu ul li a{
-	padding: 0 30px !important;
+	padding: 0 37px !important;
 	font-size: 22px;
 	font-weight: 700;
 	color: #010101 !important;
@@ -31,4 +31,49 @@ header{
 /*Header end*/
 
 /*Slider section CSS start*/
+.slider{
+	padding: 40px 0 100px;
+	background-color: #fcdb00;
+}
+.c_ind{
+	bottom: -18%;
+}
+.c_ind [data-bs-target]{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+.s_text{
+	margin-top: 60px;
+}
+.s_text h1{
+	font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+.s_text h2{
+	margin: 20px 0;
+	font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+}
+.s_text p{
+	margin-bottom: 35px;
+	color: #555555;
+}
+.s_icon{}
+.s_icon ul{}
+.s_icon ul li{
+	margin-right: 30px !important;
+}
+.s_icon ul li i{	
+	font-size: 42px;
+	color: #010101;
+	transition: .3s;
+}
+.s_icon ul li i:hover {
+	transform: scale(.8);
+}
+.s_img{}
+.s_img img{}
 /*Slider section CSS end*/
