@@ -17,7 +17,7 @@ header{
 .menu{}
 
 .menu ul li a{
-	padding: 0 37px !important;
+	padding: 0 45px !important;
 	font-size: 22px;
 	font-weight: 700;
 	color: #010101 !important;
@@ -32,7 +32,7 @@ header{
 
 /*Slider section CSS start*/
 .slider{
-	padding: 40px 0 100px;
+	padding: 0 0 100px;
 	background-color: #fcdb00;
 }
 .c_ind{
@@ -77,3 +77,44 @@ header{
 .s_img{}
 .s_img img{}
 /*Slider section CSS end*/
+
+/*Feature Section CSS start*/
+.feature{
+	padding: 100px 0 120px;
+}
+.c_title{}
+.c_h1{
+	margin-bottom: 15px;
+	font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+.c_p{
+	font-size: 20px;
+    color: #313841;
+    line-height: 28px;
+}
+.f_content{
+	margin-top: 70px;
+}
+.f_icon{}
+.f_icon i{
+	margin-top: 2px;
+	font-size: 50px;
+	color: #010101;
+	transition: .3s ease-in-out;
+}
+.f_icon i:hover{
+	transform: scale(.8);
+}
+.f_text{}
+.f_text h2{
+	margin-bottom: 10px;
+	font-size: 22px;
+	font-weight: 400;
+    color: #010101;
+}
+.f_text p{
+	letter-spacing: 1px;
+}
+/*Feature Section CSS end*/
