@@ -107,6 +107,9 @@
 		margin-top: 40px;
 		text-align: center;
 	}
+	.developer a {
+		color: #fcdb00;
+	}
 	/*Footer end*/
 }
 
@@ -214,6 +217,9 @@
 	}
 	.f_all{
 		text-align: center;
+	}
+	.developer a {
+		color: #fcdb00;
 	}
 	/*Footer end*/
 }

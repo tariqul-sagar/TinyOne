@@ -186,4 +186,24 @@ footer{
 	text-decoration: none;
 	color: #ffffff;
 }
+.f_all p a:hover{
+	color: #fcdb00;
+}
+.developer{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.developer p{
+	color: #ffffff;
+}
+.developer a{
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: .3s ease-in-out;
+}
+.developer a:hover {
+	color: #fcdb00;
+}
 /*Footer CSS end*/
